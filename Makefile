@@ -1,9 +1,9 @@
 # Copyright (c) 2000-2016 Synology Inc. All rights reserved.
 
-## You can use CC CFALGS LD LDFLAGS CXX CXXFLAGS AR RANLIB READELF STRIP after include env.mak
+## You can use CC CFLAGS LD LDFLAGS CXX CXXFLAGS AR RANLIB READELF STRIP after include env.mak
 include /env.mak
 
-EXEC= minimalPkg_2
+EXEC= minimalPkg
 OBJS= minimalPkg.o
 
 all: $(EXEC)

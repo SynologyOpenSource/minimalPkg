@@ -8,6 +8,7 @@ int main(int argc, char** argv) {
 	struct sysinfo info;
 	int ret;
 
+	ret = sysinfo(&info);
 	if (ret != 0) {
 		syslog(LOG_SYSLOG, "Failed to get info\n");
 		return -1;
