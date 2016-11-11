@@ -15,7 +15,7 @@ create_package_tgz() {
 	local binary_dir=$package_tgz_dir/usr/bin
 
 	### clear destination directory
-	rm -r $package_tgz_dir && mkdir -p $package_tgz_dir
+	rm -rf $package_tgz_dir && mkdir -p $package_tgz_dir
 
 	### install needed file into PKG_DIR
 	mkdir -p $binary_dir
