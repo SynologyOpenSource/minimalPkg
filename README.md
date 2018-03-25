@@ -1,7 +1,7 @@
 # Synology minimal package.
 
 This package is depend on Synology toolkit framework.
-This pacakge is a template package, users can modify this package to generate their own packages.
+This package is a template package, users can modify this package to generate their own packages.
 
 Please setup the toolkit by following [pkgscripts-ng](https://github.com/SynologyOpenSource/pkgscripts-ng)
 
