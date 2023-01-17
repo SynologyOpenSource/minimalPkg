@@ -7,7 +7,7 @@ package="minimalPkg"
 version="1.0.0000"
 displayname="Minimal Package"
 maintainer="Synology Inc."
-arch="$(pkg_get_unified_platform)"
+arch="$(pkg_get_platform_family)"
 description="this is a minimal package"
 [ "$(caller)" != "0 NULL" ] && return 0
 pkg_dump_info
